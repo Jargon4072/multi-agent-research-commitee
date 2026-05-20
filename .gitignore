@@ -1,0 +1,12 @@
+# Investment Committee — git ignore
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+traces/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/

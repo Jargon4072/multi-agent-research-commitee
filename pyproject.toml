@@ -1,0 +1,30 @@
+[project]
+name = "battery-research-agents"
+version = "1.0.0"
+description = "Multi-agent research system for complex multi-domain questions"
+authors = [
+    {name = "Research Team", email = "research@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.28.0",
+    "pydantic>=2.6.3",
+    "typer>=0.12.0",
+    "rich>=13.0.0",
+    "python-dotenv>=1.0.1",
+    "anthropic>=0.28.0",
+    "google-genai>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.5",
+    "black>=24.2.0",
+    "isort>=5.13.2"
+]
+
+[project.scripts]
+research = "cli.app:app"
