@@ -1,4 +1,4 @@
-# Battery Research Multi-Agent System
+# Multi-Agent Research & Synthesis
 
 A multi-agent system that answers complex, multi-domain research questions by decomposing them into subtasks, routing to specialized sub-agents, and synthesizing results into a coherent structured report.
 
